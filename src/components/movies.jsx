@@ -35,7 +35,7 @@ class Movies extends Component {
   handleSelectGenre = (genre) => {
     this.setState({ selectedGenre: genre });
   };
-
+  //testing commit
   render() {
     const { length: count } = this.state.movies;
     const {
